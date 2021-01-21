@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homePageLinks {
+  text-decoration: none;
+  color: black;
+}
+
+.homePageButtons {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  cursor: pointer;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customerTable {
+  display: flex;
+  justify-content: center;
+}
+.customerTable table {
+  border-collapse: collapse;
+}
+
+.customerTable thead {
+  background-color: green;
+  color: white;
+}
+
+.customerTable th, td {
+  padding: 5px;
+  border-collapse:collapse;
+  border: 1px solid black;
+}
+
+.customerTable .name {
+  width: 200px;
+  max-width: 200px;
+}
+
+.customerTable .email {
+  width: 250px;
+  max-width: 250px;
+}

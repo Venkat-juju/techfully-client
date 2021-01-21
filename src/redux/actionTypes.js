@@ -1,0 +1,6 @@
+export const CREATE_CUSTOMER = 'CREATE_CUSTOMER';
+export const UPDATE_CUSTOMER = 'UPDATE_CUSTOMER';
+export const DELETE_CUSTOMER = 'DELETE_CUSTOMER';
+export const FETCH_ALL = 'FETCH_ALL';
+export const FETCH_CUSTOMER = 'FETCH_CUSTOMER';
+export const DELETE_ALL = 'DELETE_ALL';
